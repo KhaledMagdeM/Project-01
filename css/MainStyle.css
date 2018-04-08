@@ -1,0 +1,394 @@
+
+body {background-color: #f2f2f2;}
+
+
+
+/* Start bootstrap navbar */
+.navbar { overflow: hidden; position: absolute; z-index: 999;}
+
+.navbar .navbar-brand {color:rgba(255, 255, 255, 0.65); margin-top: 20px;}
+
+.navbar .navbar-brand:hover {color:rgba(255, 255, 255, 0.65)}
+
+.navbar .navbar-brand span {color: #fff}
+
+.navbar .navbar-brand:hover span {color:rgba(255, 255, 255, 0.65)}
+
+/* End bootstrap navbar*/
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/* Start Link To Original Tamplete */
+.to-ori-website {display: flex; justify-content: center;}
+
+.to-ori-website a{
+    position: absolute;
+    z-index: 5;
+    top: 15px;
+    color: rgba(249, 243, 243, 0.3);
+    border: 1px solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.to-ori-website a:hover {color:rgba(249, 243, 243, 0.9)}
+/* End Link To Original Tamplete */
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/* Start my navbar */
+.my-nav .list {    
+    position: fixed;
+    z-index: 9999;
+    display: none;
+    right: 0px;
+    top: 0px;
+    max-width: 80%;
+    width: 20rem;
+    height: 100%;
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+
+.my-nav ul li {padding-bottom: 10px}
+
+.my-nav ul li:not(:first-of-type) {border-top: 1px solid rgba(255, 255, 255, 0.125)}
+
+
+.my-nav ul li a {color: rgba(255, 255, 255, 0.5)}
+
+
+.my-nav ul li:hover a {color: #fff}
+
+
+.my-nav .open {position: absolute; 
+    z-index: 999;
+    right: 20px; 
+    top: 35px; 
+    cursor: pointer;
+    text-transform: capitalize; 
+    color: #fff
+}
+
+.my-nav .close {    
+    position: fixed;
+    z-index: 99999;
+    right: 25px;
+    top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    display: none
+}
+/* End navbar */
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/* Start fixed-navbar */
+
+.fixed-navbar {    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 6;
+    background-color: black;
+    display: none
+}
+
+.fixed-navbar .navbar {padding-top: 5px}
+
+.fixed-navbar a {margin-top: 0}
+
+.fixed-navbar .navbar-brand{margin-top: 0}
+
+.fixed-navbar .open {top: 12px}
+
+
+/* End fixed-navbar*/
+
+/*//////////////////////////////////*/
+
+/* Start Slider */
+.carousel-indicators {bottom: 0; top: 600px; z-index: 5}
+
+
+.carousel-indicators li {    
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    cursor: pointer
+}
+
+.carousel-inner {height: 650px;}
+
+
+.carousel-inner .overlay {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6) 
+}
+
+.carousel-inner .carousel-item {height: 100% ; width: 100%;}
+
+
+
+.carousel-inner .carousel-caption {
+    position: absolute;
+    bottom: 220px;
+    font-size: 1.5rem;
+    z-index: 5;
+    
+}
+
+.carousel-caption p {margin-bottom: 3rem; font-size: 16px; letter-spacing: 2px; color: rgba(255, 255, 255, 0.5)}  
+
+    
+.carousel-caption h5 {font-size: 6.5rem; color: #fff; font-weight: 350;}
+
+.carousel-caption h5::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: 180px;
+    left: 0;
+    width: 35%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+
+
+.slide-img1 {
+    background-image: url(../images/slide01.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover
+}
+
+
+.slide-img2 {
+    background-image: url(../images/slide02.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover
+}
+
+.slide-img3 {
+    background-image: url(../images/slide03.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover
+}
+
+.slide-img4 {
+    background-image: url(../images/slide04.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover
+}
+
+.slide-img5 {
+    background-image: url(../images/slide05.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover
+}
+/* End Slider */
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/* start wraper-style1 */
+.wraper-style1 {padding-top: 100px; padding-bottom: 100px}
+
+
+
+.wraper-style1 .container {max-width: 1180px;}
+
+
+
+.wraper-style1 .info1 {
+    padding-right: 25px
+}
+
+.wraper-style1 .info2 {
+    padding-left: 25px
+}
+
+
+.wraper-style1  .card-body {padding: 40px 50px 40px;}
+
+
+
+.wraper-style1 span {color: #c5bcbc; font-size: 12px; letter-spacing: 3px;}
+
+
+
+.wraper-style1 .card-body h5 {margin-bottom: 2.75rem; margin-top: 17px; font-size: 30px; font-weight: 400}
+
+
+
+.wraper-style1 h5::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    bottom: 291px;
+    left: 156px;
+    width: 45%;
+    height: 1px;
+    background-color: rgba(199, 192, 192, 0.65);
+}
+
+
+
+.wraper-style1 .card-body p {text-align: left; width: 98%; color: #a5a0a0}
+
+
+
+.wraper-style1 .card-body a {
+    color: black;
+    margin-top: 15px;
+    border: 1px solid #bdb7b7;
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 23px;
+    transition: all .2s ease-in-out
+}
+
+
+
+.wraper-style1 .card-body a:hover {
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    background-color: rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.10);
+}
+/* End wraper-style1 */
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/* Start wraper-style2 */
+.wraper-style2 {background-image: url(../images/bg.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center 60%;
+    background-size: cover;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.wraper-style2 .overlay {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6) 
+}
+
+
+.wraper-style2 div {position: absolute; z-index: 3}
+
+
+.wraper-style2 div P {margin-bottom: 2rem; margin-top: 25px; color: rgba(255, 255, 255, 0.45); font-size: 11px; letter-spacing: 3px;}
+
+
+.wraper-style2 div h4 {color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.wraper-style2 h4::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    bottom: 58px;
+    left: 30px;
+    width: 91%;
+    height: 1px;
+    background-color: rgba(199, 192, 192, 0.65);
+}
+
+/* End wraper-style2 */
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/* Start wraper-style3 */
+
+.wraper-style3 {padding: 60px 0}
+
+.wraper-style3 .container {max-width: 1185px; padding-left: 0; padding-right: 0}
+
+.wraper-style3 div P {margin-bottom: 1rem; margin-top: 25px; color: rgba(130, 125, 125, 0.65); font-size: 13px; letter-spacing: 3px;}
+
+.wraper-style3 p::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    left: 368px;
+    top: 1855px;
+    width: 45.5%;
+    height: 1px;
+    background-color: rgba(130, 125, 125, 0.25);
+}
+
+.wraper-style3 div h4 {color: black;
+    font-size: 1.75rem;
+    font-weight: 350;
+    margin-bottom: 40px;
+    margin-top: 30px
+}
+
+
+
+.img1 {padding-right: 30px;}
+
+.img2 {padding-left: 30px;}
+
+.wraper-style3 img {    
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 55px;
+}
+/* End wraper-style3 */
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/* Start footer */
+footer {background-color: black; padding: 80px 0 70px;}
+
+footer a {margin-right: 15px; color: rgba(255, 255, 255, 0.5);}
+
+footer a:last-of-type {margin-right: 0}
+
+footer a:hover {color: #fff}
+
+footer a i {font-size: 1.7rem;}
+
+footer h5 {    
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* End footer */
